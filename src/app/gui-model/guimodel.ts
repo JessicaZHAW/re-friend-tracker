@@ -97,13 +97,13 @@ export class GuiModel {
                     ]
                 },
                 {
-                    "id": "AddActivityForm",
+                    "id": "ActivityForm",
                     "title": "Activity",
                     "url": "/activity",
                     "formFieldList": [
                         {
                             "id":   "activity",
-                            "type": "autocomplete",
+                            "type": "text",
                             "name": "Activity",
                             "url": "/activity",
                             "defaultKey": "activityKey",
@@ -177,6 +177,13 @@ export class GuiModel {
                             "icon": "fa-weixin",
                             "color": "wisteria",
                             "page": "groupspage",
+                        },
+                        {                  
+                            "type": "button",
+                            "name": "Activity",
+                            "icon": "fa-weixin",
+                            "color": "wisteria",
+                            "page": "activityspage",
                         },
                     ]
                 },
